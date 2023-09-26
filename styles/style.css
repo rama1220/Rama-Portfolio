@@ -1,0 +1,347 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #8f8f8f;
+  overflow-x: hidden;
+}
+
+/* Strat Header */
+header {
+  display: flex;
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: fixed;
+  background-color: rgb(37, 37, 37);
+  height: 13vh;
+}
+
+.logo {
+  width: 25%;
+  display: flex;
+}
+.logo a {
+  color: white;
+  margin: auto;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.logo a:hover {
+  color: antiquewhite;
+  transition: ease-in-out 0.2s;
+}
+
+nav {
+  width: 40%;
+  display: flex;
+}
+nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.3rem;
+}
+li a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 0.2rem;
+}
+
+li a:hover {
+  color: antiquewhite;
+  transition: ease-in-out 0.2s;
+}
+/* End header */
+
+/* Start Hero */
+
+#hero {
+  width: 100%;
+}
+.main-hero {
+  width: 100%;
+  background-color: #8f8f8f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-display {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hero-display img {
+  width: 40%;
+  margin-top: 10px;
+  padding-bottom: 30px;
+}
+.hero-name {
+  width: 50%;
+  text-align: center;
+  padding-bottom: 2.2rem;
+}
+.hero-name h1 {
+  color: white;
+  margin-top: 10px;
+}
+.hero-name h2 {
+  color: white;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+/* End Hero */
+/* Strat Service */
+#service {
+  width: 100%;
+  padding: 5rem;
+}
+.main-service {
+  width: 100%;
+  color: white;
+}
+.title {
+  color: white;
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  margin-top: 10px;
+}
+.box-1 {
+  width: 100%;
+  display: flex;
+  padding-top: 4.5rem;
+  gap: 20px;
+}
+
+.service {
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 20px;
+  display: block;
+  justify-content: center;
+}
+.service-icon {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.service-icon img {
+  border: 2px solid black;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+.service h4,
+p {
+  margin-bottom: 10px;
+}
+/* End service */
+/* Start Portfolio */
+#portfolio {
+  width: 100%;
+  padding: 5rem;
+}
+.main-portfolio {
+  width: 100%;
+}
+.box-2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 4.5rem;
+  gap: 20px;
+}
+.portfolio {
+  width: 30%;
+  border: 2px solid white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.port-cover img {
+  width: 100%;
+  height: 150px;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+.port-card img {
+  width: 100%;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+
+.portfolio p {
+  text-align: justify;
+  padding: 15px;
+  color: white;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
+.port-title h4 {
+  font-size: 1rem;
+  color: white;
+  padding-left: 1.1rem;
+  height: 30px;
+}
+.port-title h4:hover {
+  color: antiquewhite;
+  transition: ease-in-out 0.2s;
+  cursor: pointer;
+}
+.port-title a {
+  text-decoration: none;
+}
+
+/* End Portfolio */
+
+/* Start Skill */
+#skill {
+  width: 100%;
+  padding: 5rem;
+}
+.skill {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  padding-top: 4.5rem;
+}
+.edu-box,
+.skill-box {
+  width: 50%;
+  color: white;
+}
+.edu-box ul {
+  line-height: 30px;
+  margin-top: -6px;
+  margin-left: 40px;
+}
+.year,
+.info {
+  font-weight: 400;
+}
+.year {
+  margin-bottom: 10px;
+}
+.skill-box p {
+  text-align: justify;
+  line-height: 1.3rem;
+}
+.skill-list {
+  display: flex;
+  justify-content: space-between;
+  line-height: 30px;
+  padding-left: 10px;
+  width: 100%;
+}
+.skill-list ul {
+  width: 30%;
+}
+
+/* End Skill */
+/* Start Contact */
+#contact {
+  width: 100%;
+  padding: 5rem;
+}
+.main-contact {
+  width: 100%;
+}
+.contact {
+  display: flex;
+  width: 100%;
+  gap: 80px;
+  padding-top: 4.5rem;
+}
+.box-email {
+  width: 50%;
+}
+.box-addres {
+  width: 50%;
+}
+.form input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 2px solid white;
+}
+.form textarea {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 2px solid white;
+  resize: none;
+}
+.btn-submit {
+  width: 100%;
+  height: 40px;
+  border-radius: 6px;
+  color: white;
+  background-color: rgb(37, 37, 37);
+  cursor: pointer;
+}
+.contact-item {
+  display: flex;
+  gap: 7%;
+  color: white;
+}
+.info-contact h4 {
+  margin-bottom: 10px;
+}
+.info-contact p {
+  margin-bottom: 30px;
+}
+.contact-icon svg {
+  fill: white;
+}
+
+.box-email input,
+.box-email textarea {
+  padding: 20px;
+}
+.btn-submit:hover {
+  background-color: rgb(27, 26, 26);
+}
+/* End Contact */
+
+/* Start Footer */
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  gap: 20px;
+}
+footer svg,
+footer p {
+  color: antiquewhite;
+  fill: antiquewhite;
+}
+.footer-icon svg:hover {
+  fill: white;
+}
+/* End Footer */

@@ -1,0 +1,159 @@
+@media screen and (max-width: 950px) {
+  nav {
+    margin-left: -50px;
+  }
+
+  .hero-display {
+    margin-top: 10%;
+  }
+  .hero-display img {
+    width: 60vw;
+  }
+
+  .box-2 {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .portfolio {
+    width: 40%;
+    border: 2px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .main-skill {
+    padding: 0 1.5rem;
+  }
+  .contact {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .box-email,
+  .box-addres {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .contact {
+    display: flex;
+    gap: 20px;
+  }
+
+  .port-title h4 {
+    margin-bottom: 2vmax;
+  }
+  .skill-list {
+    display: block;
+  }
+
+  .toggle-burger .line-1 {
+    transform: rotate(-45deg) translate(-5px, 7px);
+    transition: 0.2s ease-in-out;
+  }
+  .toggle-burger .line-2 {
+    opacity: 0;
+  }
+  .toggle-burger .line-3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+    transition: 0.2s ease-in-out;
+  }
+
+  nav {
+    position: fixed;
+    width: 50%;
+    right: 0;
+    top: 0;
+    height: 100%;
+    flex-direction: column;
+    background-color: rgb(37, 37, 37);
+    z-index: 9;
+    transform: translateX(100%);
+    transition: 0.4s ease-in-out;
+  }
+  nav ul {
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .nav-active {
+    transform: translateX(0);
+  }
+  .burger {
+    height: 100%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    z-index: 999;
+  }
+
+  .burger .line-1,
+  .line-2,
+  .line-3 {
+    width: 28px;
+    height: 3px;
+    background-color: white;
+    border-radius: 30px;
+  }
+}
+
+@media screen and (max-width: 671px) {
+  .hero-display img {
+    width: 61vmax;
+  }
+  .box-1 {
+    flex-direction: column;
+  }
+  .service {
+    width: 100%;
+  }
+  .box-2 {
+    flex-direction: column;
+  }
+
+  #portfolio {
+    width: 100%;
+    padding: 50px;
+  }
+  .portfolio {
+    width: 100%;
+  }
+  #skill {
+    padding: 0;
+    width: 100%;
+  }
+  .skill {
+    flex-direction: column;
+  }
+
+  .edu-box {
+    width: 100%;
+  }
+  .skill-box {
+    width: 95%;
+  }
+  .skill-list {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #contact {
+    width: 100%;
+    padding: 20px;
+  }
+  .contact {
+    flex-direction: column;
+  }
+  .box-email,
+  .box-addres {
+    width: 100%;
+  }
+  .box-addres {
+    margin-top: 30px;
+  }
+}
